@@ -27,8 +27,24 @@
      background-color: var(--Cream);
  }
  
- .main-pic-mobile {
-     object-fit: scale-down;
+ h1 {
+     font-family: montserrat;
+     color: var(--Darkgrayishblue);
+     font-weight: normal;
+ }
+ 
+ h2 {
+     font-family: fraunces;
+ }
+ 
+ h3 {
+     font-family: montserrat;
+ }
+ 
+ button {
+     background-color: var(--Darkcyan);
+     width: 300px;
+     border-radius: 5px;
  }
  
  .attribution {

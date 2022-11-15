@@ -11,7 +11,7 @@
          padding: 0;
          box-sizing: border-box;
      }
-     
+
       :root {
          font-size: 14px;
          //  ### Primary
@@ -22,71 +22,84 @@
          --Darkgrayishblue: hsl(228, 12%, 48%);
          --White: hsl(0, 0%, 100%);
      }
-     
+
      body {
          background-color: var(--Cream);
      }
-     
+
      .card {
          width: 340px;
+         margin: 30px auto;
+         border-radius: 8px;
          background-color: var(--White);
+         padding-bottom: 20px;
      }
-     
+
      .txt {
-         background-color: var(--White);
-         border-bottom-left-radius: 8px;
-         border-bottom-right-radius: 8px;
          width: 340px;
+         margin: 20px;
+         border-bottom-right-radius: 8px;
+         border-bottom-left-radius: 8px;
+         //  background-color: var(--White);
      }
-     
+
      #mobile-pic {
+         width: 340px;
          border-top-left-radius: 8px;
          border-top-right-radius: 8px;
-         width: 340px;
      }
-     
+
      h1 {
-         font-family: montserrat;
          color: var(--Darkgrayishblue);
          font-weight: normal;
-         font-size: 1.5rem;
+         font-size: 1rem;
+         font-family: montserrat;
+         text-transform: uppercase;
+         letter-spacing: 6px;
      }
-     
+
      h2 {
-         font-family: fraunces;
+         margin-top: 15px;
          color: var(--Verydarkblue);
          font-weight: normal;
+         font-size: 2.5rem;
+         line-height: 1;
+         font-family: fraunces;
      }
-     
+
      h3 {
-         font-family: montserrat;
+         margin-top: 20px;
          color: var(--Darkgrayishblue);
          font-weight: normal;
-         font-size: 1;
-     }
-     
-     .new-price {
-         color: var(--Darkcyan);
-         font-family: fraunces;
-         font-size: 2.5rem;
-     }
-     
-     .old-price {
+         font-size: 1rem;
+         line-height: 1.5;
          font-family: montserrat;
      }
-     
+
+     .new-price {
+         color: var(--Darkcyan);
+         font-size: 2.5rem;
+         font-family: fraunces;
+     }
+
+     .old-price {
+         font-family: montserrat;
+         text-decoration-line: line-through;
+     }
+
      button {
          background-color: var(--Darkcyan);
          width: 300px;
          border-radius: 5px;
          margin: 0 auto;
+         color: var(White);
      }
-     
+
      .attribution {
          font-size: 11px;
          text-align: center;
      }
-     
+
      .attribution a {
          color: hsl(228, 45%, 44%);
      }

@@ -112,6 +112,11 @@
     margin: 10% auto;
     border-radius: 8px;
     background-color: var(--White);
+    border: 1px solid purple;
+  }
+  .txt {
+    position: relative;
+    border: 1px solid red;
   }
   #mobile-pic {
     display: none;
